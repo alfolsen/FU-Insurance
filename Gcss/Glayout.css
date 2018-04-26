@@ -1,0 +1,252 @@
+/*
+FLEXBOX
+*/
+a{
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+}
+li {
+  white-space: nowrap;
+}
+.licontainer{
+  white-space: nowrap;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.flex-container-column {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: silver;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+.flex-container-alt {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #ececec;
+  justify-content: space-around;
+  height: -webkit-fill-available;
+  flex-direction: column;
+}
+.flex-item {
+background-color: aliceblue;
+font-size: 30px;
+margin: auto;
+}
+.flex-pics{
+  display: flex;
+  margin: 0px;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  max-width: 33%;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.flex-row-space {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0px;
+  justify-content: space-between;
+  min-height: 200px;
+
+}
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+.flexy-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 33%;
+}
+.flex-justify-left{
+justify-content: left;
+}
+.flex-justify-right{
+justify-content: right;
+}
+.flex-justify-center{
+  justify-content: center;
+}
+.flex-justify-space-around{
+justify-content: space-around;
+}
+
+h1 {
+  font-family: Trebuchet New, monospace;
+  font-size: 3em;
+  margin: 1em 0 0.3em;
+}
+
+.narrow {
+  width: 100px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.none {
+  object-fit: none;
+}
+
+.scale-down {
+  object-fit: scale-down;
+}
+
+.about-main {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+  flex-direction: row;
+  border: solid 1px black;
+  line-height: 30px;
+  text-align: center;
+  height: 8%;
+}
+.box-350-px{
+  height: 350px;
+  min-width: 350px;
+  border: solid 1px black;
+  margin-left: 15%;
+  margin-top: 17%;
+  margin-right: 35%;
+}
+.box-150-px{
+  height: 150px;
+  width: 250px;
+  border: solid 1px black;
+  margin-top: 25px;
+}
+.box-50-px{
+  height: 50px;
+  width: 50px;
+  border: solid 1px red;
+  margin: 50px;
+}
+.box{
+  display: flex;
+  margin: 0px 0px 0px;
+  justify-content: space-around;
+  font-size: 150%;
+}
+.box-showcase{
+  height: 650px;
+  width: 800px;
+
+  border: solid 1px black;
+  margin-top: 10%;
+}
+.box-image-showcase{
+  width: 750px;
+  height: 350px;
+  border: solid 1px black;
+  margin-top: 5px;
+}
+.width-80{
+  width: 80%;
+}
+_stage_________________________________________________________________
+h3{
+  text-align: center;
+  font-size: 1.5em;
+  justify-content: space-around;
+  color: black;
+  font-family: 'Comic a MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+p{
+  text-align: center;
+  font-size: 1em;
+  justify-content: space-around;
+ color: black;
+}
+a{
+  text-align: center;
+  font-size: 1em;
+  justify-content: space-around;
+ color: black;
+}
+.textleft{
+  text-align: left;
+  margin-left: 5%;
+  white-space: nowrap;
+}
+.textright{
+  text-align: right;
+  margin-right: 5%;
+  white-space: nowrap;
+}
+.margin5{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.layout-shop{
+  display: grid;
+  height: 100%;
+  grid-template-rows: 10% 1fr 5%;
+  grid-template-columns: 15% 1fr 1fr;
+}
+
+.align-content-center{
+  align-content: center;
+}
+.align-content-left{
+  align-content: left;
+}
+.align-content-right{
+  align-content: right;
+}
+.align-content-flex-start{
+  align-content: flex-start;
+}
+.align-content-flex-end{
+  align-content: flex-end;
+}
+.align-content-space-between{
+  align-content: space-between;
+}
+.align-content-space-around{
+  align-content: space-around;
+}
+.align-content-space-evenly{
+  align-content: space-evenly;
+}
+.align-content-stretch{
+  align-content: stretch;
+}

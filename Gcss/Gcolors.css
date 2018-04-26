@@ -1,0 +1,71 @@
+.primary{
+color: #0088ce;
+}
+.primary-dark{
+  color: darkblue;
+}
+.primary-light{
+  color: lightblue;
+}
+.accent{
+color: #44ae30;
+}
+.acccent-dark{
+  color: darkgreen;
+}
+.accent-light{
+  color: lightgreen;
+}
+.background{
+  background-color: silver;
+}
+.background-light{
+  background-color: #ececec;
+}
+.background-secondary{
+ background-color: Magenta;
+}
+.success{
+  color: green;
+}
+.warning{
+  color: #ff8000;
+}
+.danger{
+  color: #ff0000;
+}
+
+.info{
+  color: #ffff00;
+}
+.inactive{
+  color: grey;
+}
+
+
+.margin-25{
+  margin: 25px;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.black{
+  background-color: black;
+}
+.silver{
+  background-color: silver;
+}
+h2 {
+  font-family: Courier New, monospace;
+  font-size: 1em;
+  margin: 1em 0 0.3em;
+}
+.grey{
+ background-color: grey;
+}
