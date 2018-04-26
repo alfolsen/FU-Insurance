@@ -1,0 +1,64 @@
+.viewport-container{
+    height: 100vh;
+    width: 100vw;
+}
+.body{
+    margin: 0px;
+}
+.layout{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 15% 1fr 10%;
+    grid-template-columns: auto;
+}
+.align-content{
+    align-items: center;
+    align-content: center;
+}
+.justify-center{
+    justify-content: center;    
+}
+.justify-left{
+    justify-content: left;    
+}
+.justify-right{
+    justify-content: right;    
+}
+.justify-even{
+    justify-content: space-evenly;    
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.align-self-center{
+    align-self: center;
+}
+
+.align-right{
+    align-content:r
+}
+/* Flex*/
+.flex-row{
+    display: flex;
+    flex-direction: row; 
+    height: 100%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.flex-wrap{flex-wrap: wrap;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.card{
+    display:flex;
+    height:6em;
+    width:5em;
+    border:solid 1px black;
+    margin:10px;
+}

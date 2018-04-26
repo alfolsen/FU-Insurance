@@ -1,0 +1,27 @@
+.grid-basic-layout{
+    display:grid;
+    grid-template-rows: 5% 15% 5% 20% 5% 30% 20%;
+    grid-template-columns:20% 30% 30% 20%;
+    
+}
+
+.grid-navbar-info{
+    grid-row: 1 / 2; 
+    grid-column: 1 / 5;
+}
+
+.grid-navbar{
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+}
+
+.grid-middle-part{
+    grid-row: 3 / 7;
+    grid-column: 1 / 5;
+}
+
+.grid-footer{
+    grid-row: 7 / 8;
+    grid-column: 1 / 5;
+}
+
